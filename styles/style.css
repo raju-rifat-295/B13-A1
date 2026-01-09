@@ -194,3 +194,38 @@
   color: #627382;
 }
 
+.knowledge{
+  padding: 120px;
+  text-align: left;
+}
+.knowledge-container{
+  display: flex;
+  gap: 60px;
+}
+.knowledge-container .knowledge-image{
+  size: 600px;
+}
+.knowledge-container .solution p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+}
+.knowledge-container .solution h1{
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: auto;
+}
+.knowledge-container .solution .solution-text{
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+.knowledge-container .solution ul{
+  margin-top: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
