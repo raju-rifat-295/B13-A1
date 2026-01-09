@@ -201,6 +201,7 @@
 .knowledge-container{
   display: flex;
   gap: 60px;
+  align-items: center;
 }
 .knowledge-container .knowledge-image{
   size: 600px;
@@ -228,4 +229,68 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.think{
+  padding: 2px 120px 120px 120px;
+
+}
+.think-container{
+  padding: 40px 80px;
+  background-color: #F7F6F2;
+  text-align: center;
+}
+.think-container h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+.think-container .think-text{
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+
+}
+.think-container button{
+  margin-top: 24px;
+  border: none;
+  background-color: #469165;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 192px;
+  height: 52px;
+}
+.think-container .think-footer{
+  margin-top: 16px;
+  font-size: 16px;
+  color: #627382;
+}
+
+footer{
+  padding: 120px 120px 30px 120px;
+  background-color: #001931;
+}
+.footer-container .social{
+  display: flex;
+  gap: 790px;
+  align-items: center;
+}
+.footer-container .social .image-box{
+  width: 350px;
+  height: 60px;
+}
+.social .icon-holder p{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.social .icon-holder i{
+  color: white;
+}
+.footer-container .copy-right p{
+  text-align: center;
+  margin-top: 30px;
+  color: #FFFFFF;
 }
