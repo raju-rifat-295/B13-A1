@@ -263,6 +263,9 @@
   width: 192px;
   height: 52px;
 }
+.think-container button:hover{
+  cursor: pointer;
+}
 .think-container .think-footer{
   margin-top: 16px;
   font-size: 16px;
